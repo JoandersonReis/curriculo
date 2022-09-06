@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: "PlayFair", sans-serif;
+  color: #C9D1D9;
+}
+
+p, span, strong {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  width: 600px;
+  padding: 22px;
+  background: #0D1117;
+}
+
+aside header .perfil-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.2rem;
+}
+
+aside header .perfil-image-container img {
+  width: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+aside main .block {
+  margin-bottom: 12px;
+}
+
+aside main .block .content {
+  display: flex;
+  flex-direction: column;
+}
+
+aside main .block h2 {
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.main-content {
+  background: #161B22;
+  padding-top: 22px;
+}
+
+.main-content header {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content header div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-content header div h1 {
+  color: #161B22;
+  font-size: 32px;
+}
+
+.main-content header div span {
+  color: #C9D1D9;
+}
+
+.main-content .content {
+  padding: 22px;
+}
+
+.main-content .content h2 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.main-content .content .block .table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 22px;
+  row-gap: 22px;
+}
+
+.table div h3 {
+  font-size: 16px;
+  color: #4179B9;
+}
+
+.main-content .content .block > .item h3 {
+  font-size: 16px;
+  color: #4179B9;
+}
+
+.main-content .content .block > .item span {
+  font-size: 12px;
+  color: #ddd;
+}
+
+.main-content .content .block > .item p {
+  margin-top: 4px;
+}
+
