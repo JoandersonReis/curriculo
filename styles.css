@@ -147,6 +147,7 @@ section .container {
 
 .container ul li {
   list-style: disc;
+  font-size: 14px;
 }
 
 .container ul {
